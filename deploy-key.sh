@@ -1,6 +1,6 @@
-# @name Deploy-Nexterm-and-Emergency-Key
-# @description Deploys an IP-Restricted Pubkey of Nexterm and Emergency Key
-# @os Debian, Ubuntu
+# @name: Deploy-Nexterm-and-Emergency-Key
+# @description: Deploys an IP-Restricted Pubkey of Nexterm and Emergency Key
+# @os: Debian, Ubuntu
 
 #!/bin/sh
 set -eu #
