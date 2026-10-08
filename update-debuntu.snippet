@@ -1,0 +1,5 @@
+# @name Update Debuntu
+# @description Repair, update and clean an apt-based container
+# @os Debian, Ubuntu
+
+apt update && dpkg --configure -a && apt install -f && apt dist-upgrade && apt autoremove && apt autoclean; echo "Update finished: $(date)"
